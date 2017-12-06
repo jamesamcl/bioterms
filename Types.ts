@@ -46,6 +46,10 @@ export namespace Types {
 
         export const Protein:string = Prefixes.sybio + 'Protein'
         export const InduciblePromoter:string = Prefixes.sybio + 'InduciblePromoter'
+	export const Reaction:string = Prefixes.sybio + 'Reaction'
+	export const ReactionParticipant:string = Prefixes.sybio + 'ReactionParticipant'
+	export const Compound:string = Prefixes.sybio + 'Compound'
+
 
     }
 

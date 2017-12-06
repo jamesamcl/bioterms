@@ -78,10 +78,24 @@ export namespace Predicates {
 
     export namespace SyBiOnt {
 
-        export const encodedBy:string = Prefixes.sybio + 'en_by'
-
-
-
+        export const encodedBy:string = Prefixes.sybio + 'encodedBy'
+        export const EC:string = Prefixes.sybio + 'EC'
+	export const isBalanced = Prefixes.sybio + 'isBalanced'
+	export const isReactionClass = Prefixes.sybio + 'isReactionClass'
+	export const inPolymerization = Prefixes.sybio + 'inPolymerization'
+	export const inTransport = Prefixes.sybio + 'inTransport'
+	export const reactionDirection = Prefixes.sybio + 'reactionDirection'
+	export const hasReactionParticipant = Prefixes.sybio + 'hasReactionParticipant'
+	export const referencesCompound = Prefixes.sybio + 'referencesCompound'
+	export const reactionSide = Prefixes.sybio + 'reactionSide'
+	export const reactionSummary = Prefixes.sybio + 'reactionSummary'
+	export const stoicRatio =  Prefixes.sybio + 'stoichiometricRatio'
+	export const compoundCharge = Prefixes.sybio + 'compoundCharge'
+	export const compoundFormula = Prefixes.sybio + 'compoundFormula'
+	export const compoundMass = Prefixes.sybio + 'compoundMass'
+	export const compoundSmilesFormula = Prefixes.sybio + 'compoundSmilesFormula'
+	export const interactsWith = Prefixes.sybio + 'interactsWith'
+	export const taxId = Prefixes.sybio + 'taxId'
     }
 
     export namespace Prov {
