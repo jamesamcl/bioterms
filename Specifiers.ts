@@ -167,6 +167,15 @@ export namespace Specifiers {
         export const CatalyticActivity:string = Prefixes.go + 'GO:0003824'
     }
 
+    export namespace SyBiOnt {
+	    export const Bidirectional:string = Prefixes.sybio + 'Bidirectional'
+	    export const LeftToRight:string = Prefixes.sybio + 'LeftToRight'
+	    export const RightToLeft:string = Prefixes.sybio + 'RightToLeft'
+	    export const UndefinedDirection:string = Prefixes.sybio + 'UndefinedDirection'
+	    export const LeftSide:string = Prefixes.sybio + 'LeftSide'
+	    export const RightSide:string = Prefixes.sybio + 'RightSide'
+    }
+
 
 }
 
