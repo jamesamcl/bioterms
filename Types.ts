@@ -9,6 +9,8 @@ export namespace Types {
         export const Module:string = Prefixes.sbol2 + 'Module'
         export const Component:string = Prefixes.sbol2 + 'Component'
         export const Range:string = Prefixes.sbol2 + 'Range'
+        export const Cut:string = Prefixes.sbol2 + 'Cut'
+        export const GenericLocation:string = Prefixes.sbol2 + 'GenericLocation'
         export const SequenceAnnotation:string = Prefixes.sbol2 + 'SequenceAnnotation'
         export const SequenceConstraint:string = Prefixes.sbol2 + 'SequenceConstraint'
         export const Interaction:string = Prefixes.sbol2 + 'Interaction'
@@ -17,7 +19,6 @@ export namespace Types {
         export const FunctionalComponent:string = Prefixes.sbol2 + 'FunctionalComponent'
         export const Sequence:string = Prefixes.sbol2 + 'Sequence'
         export const MapsTo:string = Prefixes.sbol2 + 'MapsTo'
-        export const GenericLocation:string = Prefixes.sbol2 + 'GenericLocation'
         export const Attachment:string = Prefixes.sbol2 + 'Attachment'
     }
 
@@ -25,6 +26,7 @@ export namespace Types {
         export const Component:string = Prefixes.sbolx + 'Component'
         export const SubComponent:string = Prefixes.sbolx + 'SubComponent'
         export const Range:string = Prefixes.sbolx + 'Range'
+        export const Cut:string = Prefixes.sbolx + 'Cut'
         export const SequenceConstraint:string = Prefixes.sbolx + 'SequenceConstraint'
         export const Interaction:string = Prefixes.sbolx + 'Interaction'
         export const Participation:string = Prefixes.sbolx + 'Participation'
