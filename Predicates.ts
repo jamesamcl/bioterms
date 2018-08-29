@@ -35,6 +35,12 @@ export namespace Predicates {
         export const subject:string = Prefixes.sbol2 + 'subject'
         export const object:string = Prefixes.sbol2 + 'object'
         export const member:string = Prefixes.sbol2 + 'member'
+
+        // attachments
+        export const source:string = Prefixes.sbol2 + 'source'
+        export const format:string = Prefixes.sbol2 + 'format'
+        export const size:string = Prefixes.sbol2 + 'size'
+        export const hash:string = Prefixes.sbol2 + 'hash'
     }
 
     export namespace SBOLX {
@@ -61,6 +67,12 @@ export namespace Predicates {
         export const constraintObject:string = Prefixes.sbolx + 'constraintObject'
         export const hasSequenceFeature:string = Prefixes.sbolx + 'hasSequenceFeature'
         export const hasMember:string = Prefixes.sbolx + 'hasMember'
+
+        // attachments
+        export const source:string = Prefixes.sbolx + 'source'
+        export const format:string = Prefixes.sbolx + 'format'
+        export const size:string = Prefixes.sbolx + 'size'
+        export const hash:string = Prefixes.sbolx + 'hash'
     }
 
     export namespace Dcterms {

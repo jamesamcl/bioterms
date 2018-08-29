@@ -18,6 +18,7 @@ export namespace Types {
         export const Sequence:string = Prefixes.sbol2 + 'Sequence'
         export const MapsTo:string = Prefixes.sbol2 + 'MapsTo'
         export const GenericLocation:string = Prefixes.sbol2 + 'GenericLocation'
+        export const Attachment:string = Prefixes.sbol2 + 'Attachment'
     }
 
     export namespace SBOLX {
@@ -31,6 +32,7 @@ export namespace Types {
         export const Sequence:string = Prefixes.sbolx + 'Sequence'
         export const OrientedLocation:string = Prefixes.sbolx + 'OrientedLocation'
         export const SequenceFeature:string = Prefixes.sbolx + 'SequenceFeature'
+        export const Attachment:string = Prefixes.sbolx + 'Attachment'
     }
 
     export namespace Visual {
