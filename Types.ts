@@ -20,6 +20,7 @@ export namespace Types {
         export const Sequence:string = Prefixes.sbol2 + 'Sequence'
         export const MapsTo:string = Prefixes.sbol2 + 'MapsTo'
         export const Attachment:string = Prefixes.sbol2 + 'Attachment'
+        export const Model:string = Prefixes.sbol2 + 'Model'
     }
 
     export namespace SBOLX {

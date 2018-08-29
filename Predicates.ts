@@ -36,8 +36,8 @@ export namespace Predicates {
         export const subject:string = Prefixes.sbol2 + 'subject'
         export const object:string = Prefixes.sbol2 + 'object'
         export const member:string = Prefixes.sbol2 + 'member'
-
-        // attachments
+        export const framework:string = Prefixes.sbol2 + 'framework'
+        export const language:string = Prefixes.sbol2 + 'language'
         export const source:string = Prefixes.sbol2 + 'source'
         export const format:string = Prefixes.sbol2 + 'format'
         export const size:string = Prefixes.sbol2 + 'size'
