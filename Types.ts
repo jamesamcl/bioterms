@@ -57,6 +57,14 @@ export namespace Types {
 
     }
 
+    export namespace Prov {
+        export const Agent:string = Prefixes.prov + 'Agent'
+        export const Association:string = Prefixes.prov + 'Association'
+        export const Activity:string = Prefixes.prov + 'Activity'
+        export const Usage:string = Prefixes.prov + 'Usage'
+        export const Plan:string = Prefixes.prov + 'Plan'
+    }
+
     export namespace Enrichment {
 
         export const GeneProduct = Prefixes.enrichment + 'GeneProduct'

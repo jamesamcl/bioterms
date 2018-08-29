@@ -115,6 +115,16 @@ export namespace Predicates {
     export namespace Prov {
 
         export const wasDerivedFrom:string = Prefixes.prov + 'wasDerivedFrom'
+        export const wasGeneratedBy:string = Prefixes.prov + 'wasGeneratedBy'
+        export const qualifiedAssociation:string = Prefixes.prov + 'qualifiedAssociation'
+        export const qualifiedUsage:string = Prefixes.prov + 'qualifiedUsage'
+        export const startedAtTime:string = Prefixes.prov + 'startedAtTime'
+        export const endedAtTime:string = Prefixes.prov + 'endedAtTime'
+        export const wasInformedBy:string = Prefixes.prov + 'wasInformedBy'
+        export const agent:string = Prefixes.prov + 'agent'
+        export const entity:string = Prefixes.prov + 'entity'
+        export const hadRole:string = Prefixes.prov + 'hadRole'
+        export const hadPlan:string = Prefixes.prov + 'hadPlan'
 
     }
 

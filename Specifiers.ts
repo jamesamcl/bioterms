@@ -59,6 +59,12 @@ export namespace Specifiers {
             export const OppositeOrientationAs:string = Prefixes.sbol2 + 'oppositeOrientationAs'
         }
 
+        export namespace ProvRole {
+            export const Design:string = Prefixes.sbol2 + 'design'
+            export const Build:string = Prefixes.sbol2 + 'build'
+            export const Test:string = Prefixes.sbol2 + 'test'
+            export const Learn:string = Prefixes.sbol2 + 'learn'
+        }
     }
 
     export namespace SBOLX {
