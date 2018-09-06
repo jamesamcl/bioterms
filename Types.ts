@@ -21,6 +21,7 @@ export namespace Types {
         export const MapsTo:string = Prefixes.sbol2 + 'MapsTo'
         export const Attachment:string = Prefixes.sbol2 + 'Attachment'
         export const Model:string = Prefixes.sbol2 + 'Model'
+        export const Implementation:string = Prefixes.sbol2 + 'Implementation'
     }
 
     export namespace SBOLX {
