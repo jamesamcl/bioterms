@@ -1,3 +1,13 @@
+export function uriToName(uri){
+
+    let temp:string[] = uri.split('/')
+    let id:any = temp.pop()
+    let name:string = sequenceOntology.so[id]["name"]
+    
+    return name 
+
+}
+
 export namespace sequenceOntology{
 
   export const so:any = {

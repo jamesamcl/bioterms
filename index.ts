@@ -3,7 +3,7 @@ import { Prefixes, prefixify } from './Prefixes'
 import { Types } from './Types'
 import { Predicates } from './Predicates'
 import { Specifiers } from './Specifiers'
-import { sequenceOntology } from './sequenceOntology'
+import { sequenceOntology, uriToName } from './sequenceOntology'
 
 export {
     Prefixes,
@@ -11,7 +11,8 @@ export {
     Types,
     Predicates,
     Specifiers,
-    sequenceOntology
+    sequenceOntology,
+    uriToName
 }
 
 
