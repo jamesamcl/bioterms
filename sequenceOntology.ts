@@ -1,9 +1,14 @@
-export async function uriToName(uri){
+export function uriToName(uri){
 
     let temp:string[] = uri.split('/')
     let id:any = temp.pop()
 
-    let name:string = sequenceOntology.so[id]["name"]
+    let entry = sequenceOntology.so[id]
+    
+    if(!entry)
+      return undefined
+
+    let name:string = entry['name']
     
     return name 
 
