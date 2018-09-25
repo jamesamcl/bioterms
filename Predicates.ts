@@ -73,6 +73,9 @@ export namespace Predicates {
         export const constraintObject:string = Prefixes.sbolx + 'constraintObject'
         export const hasSequenceFeature:string = Prefixes.sbolx + 'hasSequenceFeature'
         export const hasMember:string = Prefixes.sbolx + 'hasMember'
+        export const modelFramework:string = Prefixes.sbolx + 'modelFramework'
+        export const modelLanguage:string = Prefixes.sbolx + 'modelLanguage'
+        export const modelSource:string = Prefixes.sbolx + 'modelSource'
 
         // attachments
         export const source:string = Prefixes.sbolx + 'source'

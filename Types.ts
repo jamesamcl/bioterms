@@ -37,6 +37,7 @@ export namespace Types {
         export const OrientedLocation:string = Prefixes.sbolx + 'OrientedLocation'
         export const SequenceFeature:string = Prefixes.sbolx + 'SequenceFeature'
         export const Attachment:string = Prefixes.sbolx + 'Attachment'
+        export const Model:string = Prefixes.sbolx + 'Model'
     }
 
     export namespace Visual {
