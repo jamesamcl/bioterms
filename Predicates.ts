@@ -24,6 +24,7 @@ export namespace Predicates {
         export const mapsTo:string = Prefixes.sbol2 + 'mapsTo'
         export const local:string = Prefixes.sbol2 + 'local'
         export const remote:string = Prefixes.sbol2 + 'remote'
+        export const refinement:string = Prefixes.sbol2 + 'refinement'
         export const interaction:string = Prefixes.sbol2 + 'interaction'
         export const participation:string = Prefixes.sbol2 + 'participation'
         export const participant:string = Prefixes.sbol2 + 'participant'
