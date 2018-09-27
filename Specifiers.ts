@@ -65,6 +65,11 @@ export namespace Specifiers {
             export const Test:string = Prefixes.sbol2 + 'test'
             export const Learn:string = Prefixes.sbol2 + 'learn'
         }
+
+        export namespace MapsToRefinement {
+            export const UseLocal:string = Prefixes.sbol2 + 'useLocal'
+            export const UseRemote:string = Prefixes.sbol2 + 'useRemote'
+        }
     }
 
     export namespace SBOLX {
