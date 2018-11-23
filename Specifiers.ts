@@ -168,6 +168,7 @@ export namespace Specifiers {
         export const Product:string = Prefixes.sbo + 'SBO:0000011'
         export const Modifier:string = Prefixes.sbo + 'SBO:0000019'
         export const Promoter:string = Prefixes.sbo + 'SBO:0000598'
+        export const Control:string = Prefixes.sbo + 'SBO:0000168'
     }
 
     export namespace GO {
