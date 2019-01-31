@@ -35,9 +35,10 @@ export namespace Types {
         export const Collection:string = Prefixes.sbolx + 'Collection'
         export const Sequence:string = Prefixes.sbolx + 'Sequence'
         export const OrientedLocation:string = Prefixes.sbolx + 'OrientedLocation'
-        export const SequenceFeature:string = Prefixes.sbolx + 'SequenceFeature'
+        export const SequenceAnnotation:string = Prefixes.sbolx + 'SequenceAnnotation'
         export const Attachment:string = Prefixes.sbolx + 'Attachment'
         export const Model:string = Prefixes.sbolx + 'Model'
+        export const Implementation:string = Prefixes.sbolx + 'Implementation'
     }
 
     export namespace Visual {

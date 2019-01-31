@@ -24,20 +24,6 @@ export namespace Specifiers {
             export const PrivateAccess:string = Prefixes.sbol2 + 'private'
         }
 
-        export namespace Role {
-
-            export const CDS:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0000316'
-            export const Promoter:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0000167'
-            export const RBS:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0000139'
-            export const RestrictionSite:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0001687'
-            export const Terminator:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0000141'
-            export const OriginOfReplication:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0000296'
-            export const OriginOfTransfer:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0000724'
-            export const PlasmidBackbone:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0000755'
-            export const EngineeredRegion:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0000804'
-
-        }
-        
         export namespace Type {
             export const DNA:string = 'http://www.biopax.org/release/biopax-level3.owl#DnaRegion'
             export const RNA:string = 'http://www.biopax.org/release/biopax-level3.owl#RnaRegion'
@@ -93,20 +79,6 @@ export namespace Specifiers {
             export const PrivateAccess:string = Prefixes.sbolx + 'private'
         }
 
-        export namespace Role {
-
-            export const CDS:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0000316'
-            export const Promoter:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0000167'
-            export const RBS:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0000139'
-            export const RestrictionSite:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0001687'
-            export const Terminator:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0000141'
-            export const OriginOfReplication:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0000296'
-            export const OriginOfTransfer:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0000724'
-            export const PlasmidBackbone:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0000755'
-            export const EngineeredRegion:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0000804'
-
-        }
-        
         export namespace Type {
             export const DNA:string = 'http://www.biopax.org/release/biopax-level3.owl#DnaRegion'
             export const RNA:string = 'http://www.biopax.org/release/biopax-level3.owl#RnaRegion'
@@ -126,6 +98,18 @@ export namespace Specifiers {
         export namespace SequenceConstraint {
             export const Precedes:string = Prefixes.sbolx + 'precedes'
             export const OppositeOrientationAs:string = Prefixes.sbolx + 'oppositeOrientationAs'
+        }
+
+        export namespace ProvRole {
+            export const Design:string = Prefixes.sbolx + 'design'
+            export const Build:string = Prefixes.sbolx + 'build'
+            export const Test:string = Prefixes.sbolx + 'test'
+            export const Learn:string = Prefixes.sbolx + 'learn'
+        }
+
+        export namespace MapsToRefinement {
+            export const UseLocal:string = Prefixes.sbolx + 'useLocal'
+            export const UseRemote:string = Prefixes.sbolx + 'useRemote'
         }
 
     }
@@ -155,6 +139,18 @@ export namespace Specifiers {
         export const AnchorTop:string = Prefixes.visual + 'anchorTop'
         export const AnchorMid:string = Prefixes.visual + 'anchorMid'
         export const AnchorBottom:string = Prefixes.visual + 'anchorBottom'
+    }
+
+    export namespace SO {
+        export const CDS:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0000316'
+        export const Promoter:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0000167'
+        export const RBS:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0000139'
+        export const RestrictionSite:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0001687'
+        export const Terminator:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0000141'
+        export const OriginOfReplication:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0000296'
+        export const OriginOfTransfer:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0000724'
+        export const PlasmidBackbone:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0000755'
+        export const EngineeredRegion:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0000804'
     }
 
     export namespace SBO {

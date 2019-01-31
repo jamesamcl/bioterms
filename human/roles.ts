@@ -4,39 +4,39 @@ import { Specifiers } from '../Specifiers'
 const roles = [
     {
         name: 'CDS',
-        uri: Specifiers.SBOL2.Role.CDS,
+        uri: Specifiers.SO.CDS,
     },
     {
         name: 'Engineered Region',
-        uri: Specifiers.SBOL2.Role.EngineeredRegion
+        uri: Specifiers.SO.EngineeredRegion
     },
     {
         name: 'OriR',
-        uri: Specifiers.SBOL2.Role.OriginOfReplication
+        uri: Specifiers.SO.OriginOfReplication
     },
     {
         name: 'OriT',
-        uri: Specifiers.SBOL2.Role.OriginOfTransfer
+        uri: Specifiers.SO.OriginOfTransfer
     },
     {
         name: 'Plasmid Backbone',
-        uri: Specifiers.SBOL2.Role.PlasmidBackbone
+        uri: Specifiers.SO.PlasmidBackbone
     },
     {
         name: 'Promoter',
-        uri: Specifiers.SBOL2.Role.Promoter
+        uri: Specifiers.SO.Promoter
     },
     {
         name: 'RBS',
-        uri: Specifiers.SBOL2.Role.RBS
+        uri: Specifiers.SO.RBS
     },
     {
         name: 'Restriction Site',
-        uri: Specifiers.SBOL2.Role.RestrictionSite
+        uri: Specifiers.SO.RestrictionSite
     },
     {
         name: 'Terminator',
-        uri: Specifiers.SBOL2.Role.Terminator
+        uri: Specifiers.SO.Terminator
     }
 ]
 
