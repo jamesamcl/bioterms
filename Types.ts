@@ -39,6 +39,7 @@ export namespace Types {
         export const Attachment:string = Prefixes.sbolx + 'Attachment'
         export const Model:string = Prefixes.sbolx + 'Model'
         export const Implementation:string = Prefixes.sbolx + 'Implementation'
+        export const MapsTo:string = Prefixes.sbolx + 'MapsTo'
     }
 
     export namespace Visual {
