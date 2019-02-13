@@ -5,6 +5,20 @@ export namespace Predicates {
 
     export const a:string = Prefixes.rdf + 'type'
 
+    export namespace SBOL1 {
+        export const nucleotides:string = Prefixes.sbol1 + 'nucleotides'
+        export const subComponent:string = Prefixes.sbol1 + 'subComponent'
+        export const dnaSequence:string = Prefixes.sbol1 + 'dnaSequence'
+        export const bioStart:string = Prefixes.sbol1 + 'bioStart'
+        export const bioEnd:string = Prefixes.sbol1 + 'bioEnd'
+        export const displayId:string = Prefixes.sbol1 + 'displayId'
+        export const name:string = Prefixes.sbol1 + 'name'
+        export const description:string = Prefixes.sbol1 + 'description'
+        export const annotation:string = Prefixes.sbol1 + 'annotation'
+        export const strand:string = Prefixes.sbol1 + 'strand'
+        export const component:string = Prefixes.sbol1 + 'component'
+    }
+
     export namespace SBOL2 {
         export const component:string = Prefixes.sbol2 + 'component'
         export const module:string = Prefixes.sbol2 + 'module'

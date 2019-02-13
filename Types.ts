@@ -3,6 +3,13 @@ import { Prefixes } from './Prefixes'
 
 export namespace Types {
 
+    export namespace SBOL1 {
+        export const DnaComponent:string = Prefixes.sbol1 + 'DnaComponent'
+        export const DnaSequence:string = Prefixes.sbol1 + 'DnaSequence'
+        export const Collection:string = Prefixes.sbol1 + 'Collection'
+        export const SequenceAnnotation:string = Prefixes.sbol1 + 'SequenceAnnotation'
+    }
+
     export namespace SBOL2 {
         export const ModuleDefinition:string = Prefixes.sbol2 + 'ModuleDefinition'
         export const ComponentDefinition:string = Prefixes.sbol2 + 'ComponentDefinition'
