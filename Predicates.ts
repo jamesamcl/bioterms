@@ -17,6 +17,7 @@ export namespace Predicates {
         export const annotation:string = Prefixes.sbol1 + 'annotation'
         export const strand:string = Prefixes.sbol1 + 'strand'
         export const component:string = Prefixes.sbol1 + 'component'
+        export const precedes:string = Prefixes.sbol1 + 'precedes'
     }
 
     export namespace SBOL2 {
