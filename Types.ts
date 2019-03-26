@@ -49,6 +49,8 @@ export namespace Types {
         export const Model:string = Prefixes.sbolx + 'Model'
         export const Implementation:string = Prefixes.sbolx + 'Implementation'
         export const MapsTo:string = Prefixes.sbolx + 'MapsTo'
+        export const Experiment:string = Prefixes.sbolx + 'Experiment'
+        export const ExperimentalData:string = Prefixes.sbolx + 'ExperimentalData'
     }
 
     export namespace Visual {

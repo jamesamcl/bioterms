@@ -62,6 +62,7 @@ export namespace Predicates {
         export const hash:string = Prefixes.sbol2 + 'hash'
         export const built:string = Prefixes.sbol2 + 'built'
         export const experimentalData:string = Prefixes.sbol2 + 'experimentalData'
+        export const sourceLocation:string = Prefixes.sbol2 + 'sourceLocation'
     }
 
     export namespace SBOLX {
@@ -103,7 +104,7 @@ export namespace Predicates {
         export const size:string = Prefixes.sbolx + 'size'
         export const hash:string = Prefixes.sbolx + 'hash'
         export const built:string = Prefixes.sbolx + 'built'
-
+        export const sourceLocation:string = Prefixes.sbolx + 'sourceLocation'
     }
 
 
