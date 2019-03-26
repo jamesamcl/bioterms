@@ -104,6 +104,7 @@ export namespace Predicates {
         export const size:string = Prefixes.sbolx + 'size'
         export const hash:string = Prefixes.sbolx + 'hash'
         export const built:string = Prefixes.sbolx + 'built'
+        export const experimentalData:string = Prefixes.sbolx + 'experimentalData'
         export const sourceLocation:string = Prefixes.sbolx + 'sourceLocation'
     }
 
