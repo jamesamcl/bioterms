@@ -87,6 +87,10 @@ export namespace Types {
 
     }
 
+    export namespace Measure {
+        export const Measure = Prefixes.measure + 'Measure'
+    }
+
 }
 
 

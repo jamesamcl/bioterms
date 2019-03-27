@@ -26,6 +26,8 @@ export namespace Prefixes {
 
     export const enrichment:string = 'http://wiki.synbiohub.org/wiki/Terms/enrichment#'
 
+    export const measure:string = 'http://www.ontology-of-units-of-measure.org/resource/om-2/'
+
 }
 
 export function prefixify(uri) {

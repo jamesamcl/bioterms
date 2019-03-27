@@ -106,6 +106,7 @@ export namespace Predicates {
         export const built:string = Prefixes.sbolx + 'built'
         export const experimentalData:string = Prefixes.sbolx + 'experimentalData'
         export const sourceLocation:string = Prefixes.sbolx + 'sourceLocation'
+        export const measure:string = Prefixes.sbolx + 'measure'
     }
 
 
@@ -168,6 +169,11 @@ export namespace Predicates {
         export const orfEnd:string = Prefixes.enrichment + 'orfEnd'
 
 
+    }
+
+    export namespace Measure {
+        export const hasNumericalValue:string = Prefixes.measure + 'hasNumericalValue'
+        export const hasUnit:string = Prefixes.measure + 'hasUnit'
     }
 
 
