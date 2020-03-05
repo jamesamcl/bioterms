@@ -1,13 +1,12 @@
 {
   "name": "bioterms",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "description": "",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "tsc -d -p ./ --outDir dist/",
-    "prepublishOnly": "tsc -d -p ./ --outDir dist/"
+    "prepack": "tsc -d -p ./ --outDir dist/"
   },
   "author": "James Alastair McLaughlin",
   "license": "BSD-2-Clause"
