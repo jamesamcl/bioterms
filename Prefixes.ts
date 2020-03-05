@@ -4,6 +4,8 @@ export namespace Prefixes {
     export const sbol1:string = 'http://sbols.org/v1#'
     export const sbol2:string = 'http://sbols.org/v2#'
     export const sbolx:string = 'http://sboldata.org/sbolx#'
+    export const sbol3:string = 'http://sbols.org/v3#'
+
     export const rdf:string = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'
 
     export const visual:string = 'http://wiki.synbiohub.org/wiki/Terms/visual#'

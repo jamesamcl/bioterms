@@ -53,6 +53,26 @@ export namespace Types {
         export const ExperimentalData:string = Prefixes.sbolx + 'ExperimentalData'
     }
 
+    export namespace SBOL3 {
+        export const Component:string = Prefixes.sbol3 + 'Component'
+        export const SubComponent:string = Prefixes.sbol3 + 'SubComponent'
+        export const Range:string = Prefixes.sbol3 + 'Range'
+        export const Cut:string = Prefixes.sbol3 + 'Cut'
+        export const SequenceConstraint:string = Prefixes.sbol3 + 'SequenceConstraint'
+        export const Interaction:string = Prefixes.sbol3 + 'Interaction'
+        export const Participation:string = Prefixes.sbol3 + 'Participation'
+        export const Collection:string = Prefixes.sbol3 + 'Collection'
+        export const Sequence:string = Prefixes.sbol3 + 'Sequence'
+        export const OrientedLocation:string = Prefixes.sbol3 + 'OrientedLocation'
+        export const SequenceAnnotation:string = Prefixes.sbol3 + 'SequenceAnnotation'
+        export const Attachment:string = Prefixes.sbol3 + 'Attachment'
+        export const Model:string = Prefixes.sbol3 + 'Model'
+        export const Implementation:string = Prefixes.sbol3 + 'Implementation'
+        export const MapsTo:string = Prefixes.sbol3 + 'MapsTo'
+        export const Experiment:string = Prefixes.sbol3 + 'Experiment'
+        export const ExperimentalData:string = Prefixes.sbol3 + 'ExperimentalData'
+    }
+
     export namespace Visual {
 
         export const ModuleDepiction:string = Prefixes.visual + 'ModuleDepiction'

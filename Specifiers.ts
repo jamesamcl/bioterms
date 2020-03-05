@@ -114,6 +114,64 @@ export namespace Specifiers {
 
     }
 
+    export namespace SBOL3 {
+
+        export namespace Orientation {
+            export const Inline:string = Prefixes.sbol3 + 'inline'
+            export const ReverseComplement:string = Prefixes.sbol3 + 'reverseComplement'
+        }
+        
+        export namespace Direction {
+
+            export const Input:string = Prefixes.sbol3 + 'in'
+            export const Output:string = Prefixes.sbol3 + 'out'
+            export const InputAndOutput:string = Prefixes.sbol3 + 'inout'
+            export const None:string = Prefixes.sbol3 + 'none'
+
+        }
+        
+        export namespace Access {
+            export const PublicAccess:string = Prefixes.sbol3 + 'public'
+            export const PrivateAccess:string = Prefixes.sbol3 + 'private'
+        }
+
+        export namespace Type {
+            export const DNA:string = 'http://www.biopax.org/release/biopax-level3.owl#DnaRegion'
+            export const RNA:string = 'http://www.biopax.org/release/biopax-level3.owl#RnaRegion'
+            export const Protein:string = 'http://www.biopax.org/release/biopax-level3.owl#Protein'
+            export const SmallMolecule:string = 'http://www.biopax.org/release/biopax-level3.owl#SmallMolecule'
+            export const Complex:string = 'http://www.biopax.org/release/biopax-level3.owl#Complex'
+            export const Effector:string = 'http://identifiers.org/chebi/CHEBI:35224'
+            export const Circular:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0000988'
+        }
+
+        export namespace SequenceEncoding {
+            export const NucleicAcid:string = 'http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html'
+            export const RNA:string = 'http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html'
+            export const AminoAcid:string = 'http://www.chem.qmul.ac.uk/iupac/AminoAcid/'
+        }
+
+        export namespace SequenceConstraint {
+            export const Precedes:string = Prefixes.sbol3 + 'precedes'
+            export const OppositeOrientationAs:string = Prefixes.sbol3 + 'oppositeOrientationAs'
+        }
+
+        export namespace ProvRole {
+            export const Design:string = Prefixes.sbol3 + 'design'
+            export const Build:string = Prefixes.sbol3 + 'build'
+            export const Test:string = Prefixes.sbol3 + 'test'
+            export const Learn:string = Prefixes.sbol3 + 'learn'
+        }
+
+        export namespace MapsToRefinement {
+            export const UseLocal:string = Prefixes.sbol3 + 'useLocal'
+            export const UseRemote:string = Prefixes.sbol3 + 'useRemote'
+        }
+
+    }
+
+
+
     export namespace Visual {
 
         /* opacity
