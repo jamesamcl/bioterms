@@ -122,7 +122,6 @@ export namespace Predicates {
         export const sequenceConstraint:string = Prefixes.sbol3 + 'sequenceConstraint'
         export const orientation:string = Prefixes.sbol3 + 'orientation'
         export const displayId:string = Prefixes.sbol3 + 'displayId'
-        export const version:string = Prefixes.sbol3 + 'version'
         export const access:string = Prefixes.sbol3 + 'access'
         export const mapsTo:string = Prefixes.sbol3 + 'mapsTo'
         export const local:string = Prefixes.sbol3 + 'local'
