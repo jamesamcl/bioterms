@@ -71,6 +71,7 @@ export namespace Types {
         export const MapsTo:string = Prefixes.sbol3 + 'MapsTo'
         export const Experiment:string = Prefixes.sbol3 + 'Experiment'
         export const ExperimentalData:string = Prefixes.sbol3 + 'ExperimentalData'
+        export const Namespace:string = Prefixes.sbol3 + 'Namespace'
     }
 
     export namespace Visual {
