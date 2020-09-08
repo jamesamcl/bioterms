@@ -58,6 +58,7 @@ export namespace Types {
         export const SubComponent:string = Prefixes.sbol3 + 'SubComponent'
         export const Range:string = Prefixes.sbol3 + 'Range'
         export const Cut:string = Prefixes.sbol3 + 'Cut'
+        export const EntireSequence:string = Prefixes.sbol3 + 'EntireSequence'
         export const SequenceConstraint:string = Prefixes.sbol3 + 'SequenceConstraint'
         export const Interaction:string = Prefixes.sbol3 + 'Interaction'
         export const Participation:string = Prefixes.sbol3 + 'Participation'
