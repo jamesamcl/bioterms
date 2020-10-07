@@ -119,7 +119,7 @@ export namespace Predicates {
         export const end:string = Prefixes.sbol3 + 'end'
         export const at:string = Prefixes.sbol3 + 'at'
         export const hasFeature:string = Prefixes.sbol3 + 'hasFeature'
-        export const sequenceConstraint:string = Prefixes.sbol3 + 'sequenceConstraint'
+        export const hasConstraint:string = Prefixes.sbol3 + 'hasConstraint'
         export const orientation:string = Prefixes.sbol3 + 'orientation'
         export const displayId:string = Prefixes.sbol3 + 'displayId'
         export const access:string = Prefixes.sbol3 + 'access'

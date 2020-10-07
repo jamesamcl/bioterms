@@ -151,7 +151,7 @@ export namespace Specifiers {
             export const AminoAcid:string = 'http://www.chem.qmul.ac.uk/iupac/AminoAcid/'
         }
 
-        export namespace SequenceConstraint {
+        export namespace Constraint {
             export const Precedes:string = Prefixes.sbol3 + 'precedes'
             export const OppositeOrientationAs:string = Prefixes.sbol3 + 'oppositeOrientationAs'
         }
