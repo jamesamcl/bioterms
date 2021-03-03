@@ -122,6 +122,8 @@ export namespace Predicates {
         export const hasConstraint:string = Prefixes.sbol3 + 'hasConstraint'
         export const orientation:string = Prefixes.sbol3 + 'orientation'
         export const displayId:string = Prefixes.sbol3 + 'displayId'
+        export const name:string = Prefixes.sbol3 + 'name'
+        export const description:string = Prefixes.sbol3 + 'description'
         export const access:string = Prefixes.sbol3 + 'access'
         export const mapsTo:string = Prefixes.sbol3 + 'mapsTo'
         export const local:string = Prefixes.sbol3 + 'local'
