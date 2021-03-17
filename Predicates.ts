@@ -131,7 +131,7 @@ export namespace Predicates {
         export const refinement:string = Prefixes.sbol3 + 'refinement'
         export const hasInteraction:string = Prefixes.sbol3 + 'hasInteraction'
         export const hasInterface:string = Prefixes.sbol3 + 'hasInterface'
-        export const participation:string = Prefixes.sbol3 + 'participation'
+        export const hasParticipation:string = Prefixes.sbol3 + 'hasParticipation'
         export const participant:string = Prefixes.sbol3 + 'participant'
         export const type:string = Prefixes.sbol3 + 'type'
         export const hasSequence:string = Prefixes.sbol3 + 'hasSequence'
