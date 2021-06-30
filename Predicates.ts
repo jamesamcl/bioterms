@@ -111,7 +111,6 @@ export namespace Predicates {
     }
 
     export namespace SBOL3 {
-        export const subComponent:string = Prefixes.sbol3 + 'subComponent'
         export const instanceOf:string = Prefixes.sbol3 + 'instanceOf'
         export const role:string = Prefixes.sbol3 + 'role'
         export const hasLocation:string = Prefixes.sbol3 + 'hasLocation'
