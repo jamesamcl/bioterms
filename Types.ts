@@ -65,7 +65,7 @@ export namespace Types {
         export const Collection:string = Prefixes.sbol3 + 'Collection'
         export const Sequence:string = Prefixes.sbol3 + 'Sequence'
         export const OrientedLocation:string = Prefixes.sbol3 + 'OrientedLocation'
-        export const SequenceAnnotation:string = Prefixes.sbol3 + 'SequenceAnnotation'
+        export const SequenceFeature:string = Prefixes.sbol3 + 'SequenceFeature'
         export const Attachment:string = Prefixes.sbol3 + 'Attachment'
         export const Model:string = Prefixes.sbol3 + 'Model'
         export const Implementation:string = Prefixes.sbol3 + 'Implementation'
