@@ -153,6 +153,7 @@ export namespace Predicates {
         export const experimentalData:string = Prefixes.sbol3 + 'experimentalData'
         export const sourceLocation:string = Prefixes.sbol3 + 'sourceLocation'
         export const hasMeasure:string = Prefixes.sbol3 + 'hasMeasure'
+        export const hasNamespace:string = Prefixes.sbol3 + 'hasNamespace'
     }
 
 
