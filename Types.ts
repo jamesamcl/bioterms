@@ -31,6 +31,8 @@ export namespace Types {
         export const Implementation:string = Prefixes.sbol2 + 'Implementation'
         export const Experiment:string = Prefixes.sbol2 + 'Experiment'
         export const ExperimentalData:string = Prefixes.sbol2 + 'ExperimentalData'
+        export const CombinatorialDerivation:string = Prefixes.sbol2 + 'CombinatorialDerivation'
+        export const VariableComponent:string = Prefixes.sbol2 + 'VariableComponent'
     }
 
     export namespace SBOLX {
@@ -73,6 +75,8 @@ export namespace Types {
         export const Experiment:string = Prefixes.sbol3 + 'Experiment'
         export const ExperimentalData:string = Prefixes.sbol3 + 'ExperimentalData'
         export const Namespace:string = Prefixes.sbol3 + 'Namespace'
+        export const CombinatorialDerivation:string = Prefixes.sbol3 + 'CombinatorialDerivation'
+        export const VariableFeature:string = Prefixes.sbol3 + 'VariableFeature'
     }
 
     export namespace Visual {

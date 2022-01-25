@@ -64,6 +64,8 @@ export namespace Predicates {
         export const experimentalData:string = Prefixes.sbol2 + 'experimentalData'
         export const sourceLocation:string = Prefixes.sbol2 + 'sourceLocation'
         export const measure:string = Prefixes.sbol2 + 'measure'
+        export const template:string = Prefixes.sbol2 + 'template'
+        export const variableComponent:string = Prefixes.sbol2 + 'variableComponent'
     }
 
     export namespace SBOLX {
@@ -154,6 +156,8 @@ export namespace Predicates {
         export const sourceLocation:string = Prefixes.sbol3 + 'sourceLocation'
         export const hasMeasure:string = Prefixes.sbol3 + 'hasMeasure'
         export const hasNamespace:string = Prefixes.sbol3 + 'hasNamespace'
+        export const template:string = Prefixes.sbol3 + 'template'
+        export const hasVariableFeature:string = Prefixes.sbol3 + 'hasVariableFeature'
     }
 
 
