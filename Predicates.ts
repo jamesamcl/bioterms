@@ -67,6 +67,10 @@ export namespace Predicates {
         export const template:string = Prefixes.sbol2 + 'template'
         export const variableComponent:string = Prefixes.sbol2 + 'variableComponent'
         export const strategy:string = Prefixes.sbol2 + 'strategy'
+        export const variable:string = Prefixes.sbol2 + 'variable'
+        export const variant:string = Prefixes.sbol2 + 'variant'
+        export const variantCollection:string = Prefixes.sbol2 + 'variantCollection'
+        export const variantDerivation:string = Prefixes.sbol2 + 'variantDerivation'
     }
 
     export namespace SBOLX {
@@ -160,6 +164,11 @@ export namespace Predicates {
         export const template:string = Prefixes.sbol3 + 'template'
         export const hasVariableFeature:string = Prefixes.sbol3 + 'hasVariableFeature'
         export const strategy:string = Prefixes.sbol3 + 'strategy'
+        export const variable:string = Prefixes.sbol3 + 'variable'
+        export const variant:string = Prefixes.sbol3 + 'variant'
+        export const variantCollection:string = Prefixes.sbol3 + 'variantCollection'
+        export const variantDerivation:string = Prefixes.sbol3 + 'variantDerivation'
+        export const variantMeasure:string = Prefixes.sbol3 + 'variantMeasure'
     }
 
 
