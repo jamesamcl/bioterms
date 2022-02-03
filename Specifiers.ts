@@ -146,9 +146,9 @@ export namespace Specifiers {
         }
 
         export namespace SequenceEncoding {
-            export const NucleicAcid:string = 'http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html'
-            export const RNA:string = 'http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html'
-            export const AminoAcid:string = 'http://www.chem.qmul.ac.uk/iupac/AminoAcid/'
+            export const NucleicAcid:string = 'https://identifiers.org/edam:format_1207'
+            export const RNA:string = 'https://identifiers.org/edam:format_1207'
+            export const AminoAcid:string = 'https://identifiers.org/edam:format_1208'
         }
 
         export namespace Constraint {
