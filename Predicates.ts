@@ -169,6 +169,9 @@ export namespace Predicates {
         export const variantCollection:string = Prefixes.sbol3 + 'variantCollection'
         export const variantDerivation:string = Prefixes.sbol3 + 'variantDerivation'
         export const variantMeasure:string = Prefixes.sbol3 + 'variantMeasure'
+        export const input:string = Prefixes.sbol3 + 'input'
+        export const output:string = Prefixes.sbol3 + 'output'
+        export const nondirectional:string = Prefixes.sbol3 + 'nondirectional'
     }
 
 

@@ -77,6 +77,7 @@ export namespace Types {
         export const Namespace:string = Prefixes.sbol3 + 'Namespace'
         export const CombinatorialDerivation:string = Prefixes.sbol3 + 'CombinatorialDerivation'
         export const VariableFeature:string = Prefixes.sbol3 + 'VariableFeature'
+        export const Interface:string = Prefixes.sbol3 + 'Interface'
     }
 
     export namespace Visual {
