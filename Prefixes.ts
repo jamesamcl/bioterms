@@ -21,6 +21,8 @@ export namespace Prefixes {
     export const svg:string = 'http://www.w3.org/2000/svg#'
 
     export const sbo:string = 'http://identifiers.org/biomodels.sbo/'
+    
+    export const sboNs:string = 'https://identifiers.org/SBO:'
 
     export const sybio:string = 'http://www.sybio.ncl.ac.uk#'
 

@@ -25,19 +25,19 @@ export namespace Specifiers {
         }
 
         export namespace Type {
-            export const DNA:string = 'http://www.biopax.org/release/biopax-level3.owl#DnaRegion'
-            export const RNA:string = 'http://www.biopax.org/release/biopax-level3.owl#RnaRegion'
-            export const Protein:string = 'http://www.biopax.org/release/biopax-level3.owl#Protein'
-            export const SmallMolecule:string = 'http://www.biopax.org/release/biopax-level3.owl#SmallMolecule'
-            export const Complex:string = 'http://www.biopax.org/release/biopax-level3.owl#Complex'
+	    export const DNA:string = Prefixes.sboNs + '0000251'
+            export const RNA:string = Prefixes.sboNs + '0000250'
+            export const Protein:string = Prefixes.sboNs + '0000252'
+            export const SmallMolecule:string = Prefixes.sboNs + '0000247'
+            export const Complex:string = Prefixes.sboNs + '0000253'
             export const Effector:string = 'http://identifiers.org/chebi/CHEBI:35224'
             export const Circular:string = Prefixes.sequenceOntologyIdentifiersOrg + 'SO:0000988'
         }
 
         export namespace SequenceEncoding {
-            export const NucleicAcid:string = 'http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html'
-            export const RNA:string = 'http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html'
-            export const AminoAcid:string = 'http://www.chem.qmul.ac.uk/iupac/AminoAcid/'
+            export const NucleicAcid:string = 'https://identifiers.org/edam:format_1207'
+            export const RNA:string = 'https://identifiers.org/edam:format_1207'
+            export const AminoAcid:string = 'https://identifiers.org/edam:format_1208'
         }
 
         export namespace SequenceConstraint {
