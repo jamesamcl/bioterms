@@ -78,6 +78,8 @@ export namespace Types {
         export const CombinatorialDerivation:string = Prefixes.sbol3 + 'CombinatorialDerivation'
         export const VariableFeature:string = Prefixes.sbol3 + 'VariableFeature'
         export const Interface:string = Prefixes.sbol3 + 'Interface'
+        export const LocalSubComponent:string = Prefixes.sbol3 + 'LocalSubComponent'
+        export const ExternallyDefined:string = Prefixes.sbol3 + 'ExternallyDefined'
     }
 
     export namespace Visual {

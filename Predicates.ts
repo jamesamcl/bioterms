@@ -172,6 +172,7 @@ export namespace Predicates {
         export const input:string = Prefixes.sbol3 + 'input'
         export const output:string = Prefixes.sbol3 + 'output'
         export const nondirectional:string = Prefixes.sbol3 + 'nondirectional'
+        export const definition:string = Prefixes.sbol3 + 'definition'
     }
 
 
